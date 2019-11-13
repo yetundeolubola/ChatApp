@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "771229890419",
+    "firebase_url": "https://chatapp-c45aa.firebaseio.com",
+    "project_id": "chatapp-c45aa",
+    "storage_bucket": "chatapp-c45aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771229890419:android:4c2aef3f05bf40a3",
+        "android_client_info": {
+          "package_name": "com.example.akinwaleyetunde.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771229890419-3g70h6er2gqbmag5tm5i66s0ibkheo0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akinwaleyetunde.chatapp",
+            "certificate_hash": "9b19f933ea62150f487ff321ca8d5308acda3117"
+          }
+        },
+        {
+          "client_id": "771229890419-a4f2ta65btrjcm4i3gha2bmqt6m09bmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6qOaLQxta0BOkrebMkUx2FrvMzv4gQhU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771229890419-a4f2ta65btrjcm4i3gha2bmqt6m09bmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

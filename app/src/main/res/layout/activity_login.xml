@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/white"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp" >
+
+    <EditText
+        android:id="@+id/Email_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="50dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_below="@id/Email_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginBottom="60dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/Password"
+        android:textColor="@color/white"
+        android:text="Login"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/About_acct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:hint="Don't have an account?" />
+
+    <TextView
+        android:id="@+id/Create_acct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login"
+        android:layout_toRightOf="@id/About_acct"
+        android:text="Create Account"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/Flamingo"
+        android:textSize="15sp"/>
+
+</RelativeLayout>
